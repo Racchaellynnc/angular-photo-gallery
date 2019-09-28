@@ -1,18 +1,42 @@
 mat-card{
-    width: 80%;
-    margin: auto;
+    background-color: #D8A7FD;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    height: 366px;
 }
 
 textarea{
-width: 100%;
-background-color: #f0f0f0;
-margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: auto;
+    color: black;
 }
 
 mat-form-field{
+    color: black;
     width:100%;
+ 
 }
 button{
-    background-color: indianred;
+    background-color: #9555FC;
     margin-top: 10px;
+}
+.input{
+    height: 25px;
+    color:black;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.title{
+    padding: 10px;
+}
+.form {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }

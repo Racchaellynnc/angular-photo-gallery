@@ -1,0 +1,24 @@
+mat-toolbar{
+    text-decoration-style: none;
+    text-align: center;
+    background-color: #4000a788;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    box-shadow: 5px 5px 10px 5px rgb(210, 156, 253);
+    margin-bottom: 3rem;
+}
+.list{
+    font-size: 22px;
+    margin-left: auto;
+    float: right;
+    display: flex;
+    list-style-type: none;
+    align-content: right;
+}
+.list-items{
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    text-decoration: none;
+}
