@@ -12,7 +12,7 @@
                 minlength="3"
                 #title="ngModel"
                 > 
-                <mat-error *ngIf="title.invalid">Please enter a Title. (min 5 characters)</mat-error>
+                <mat-error *ngIf="title.invalid">Please enter a Title. (min 4 characters)</mat-error>
         </mat-form-field>
         <mat-form-field> 
             <div class="title">Comment</div>
@@ -25,7 +25,7 @@
                 #content="ngModel"
                 minlength="10"
                 > 
-                <mat-error *ngIf="content.invalid">Please enter content. (min 10 characters)</mat-error>
+                <mat-error *ngIf="content.invalid">Please enter content. (min 5 characters)</mat-error>
             </textarea>
         </mat-form-field>
         <button 

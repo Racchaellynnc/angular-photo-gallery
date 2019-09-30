@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
 selector:'photo',
@@ -7,7 +9,16 @@ styleUrls: ['./photo-upload.scss']
 })
 
 export class PhotoUpload{
+    selectedFile = null;
+
+    constructor(private http: HttpClient){}
+
     onFileSelected(event){
-    console.log(event);
+    this.selectedFile = event.target.files[0];
+    }
+
+    onUpload(){
+
+        // this.http.post('')
     }
 }
