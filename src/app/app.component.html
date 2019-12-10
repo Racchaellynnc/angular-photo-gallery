@@ -1,12 +1,13 @@
-<app-header></app-header>
-<photo></photo>
-<main>
-
-    
-    <app-post-create (postCreated)="onPostAdded($event)">
+<div class='container'>
+    <app-header></app-header>
+    <app-photos></app-photos>
+    <photo></photo>
+    <main>
+        <app-post-create (postCreated)="onPostAdded($event)">
   
-    </app-post-create>
-    <app-post-list [posts]="storedPosts">
+        </app-post-create>
+        <app-post-list [posts]="storedPosts">
 
-    </app-post-list>
-</main>
+        </app-post-list>
+    </main>
+</div>
