@@ -10,3 +10,29 @@ main {
 app-post-list{
     color: black;
 }
+mat-toolbar{
+    text-decoration-style: none;
+    height: 88px;
+    text-align: center;
+    background-color: #85b4b8ea;
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+    box-shadow: 5px 5px 10px 5px rgb(212, 212, 212);
+    margin-bottom: 3rem;
+}
+.list{
+    color: #555;
+    font-size: 22px;
+    margin-left: auto;
+    float: right;
+    display: flex;
+    list-style-type: none;
+    align-content: right;
+}
+.list-items{
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    text-decoration: none;
+}

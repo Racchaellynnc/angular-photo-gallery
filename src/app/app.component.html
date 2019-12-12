@@ -1,13 +1,15 @@
 <div class='container'>
-    <app-header></app-header>
-    <app-photos></app-photos>
-    <photo></photo>
-    <main>
-        <app-post-create (postCreated)="onPostAdded($event)">
-  
-        </app-post-create>
-        <app-post-list [posts]="storedPosts">
+    <mat-toolbar>
+        <div class="main-text">
+            <img src='../../assets/logo.png' alt='logo' class='logo'>
+        </div>  
+        <ul class="list">
+            <li><a href='#' routerLink="/profile" class="list-items">Profile</a></li>
+            <li><a href='#' routerLink='/graphics' class="list-items">Explore</a></li>
+        </ul>      
+    </mat-toolbar>
 
-        </app-post-list>
-    </main>
+    <router-outlet></router-outlet>
 </div>
+
+

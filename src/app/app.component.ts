@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { Post } from './posts/post.model';
-
+import { Post } from './profile/posts/post.model';
+import { HomePageComponent } from './home/homepage/homepage';
+import { ProfileComponent } from './profile/profile/profile';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
