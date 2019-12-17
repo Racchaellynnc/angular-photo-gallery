@@ -1,0 +1,18 @@
+<div class='container'>
+    <div class='profile-photo'>
+        <div class='profile-intro'>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<main>
+        <app-post-create (postCreated)="onPostAdded($event)">
+    
+        </app-post-create>
+        <app-post-list [posts]="storedPosts">
+    
+        </app-post-list>
+</main>
