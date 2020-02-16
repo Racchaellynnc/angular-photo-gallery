@@ -19,7 +19,7 @@ mat-toolbar{
     font-size: 30px;
     font-weight: 200;
     box-shadow: 5px 5px 10px 5px rgb(212, 212, 212);
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 .list{
     color: #555;
@@ -35,4 +35,5 @@ mat-toolbar{
     text-align: right;
     margin-right: 30px;
     text-decoration: none;
+    color: #333;
 }
