@@ -15,7 +15,7 @@ mat-toolbar{
     text-decoration-style: none;
     height: 88px;
     text-align: center;
-    background-color: #51B1B9;
+    background-color: #161616;
     color: black;
     font-size: 30px;
     font-weight: 200;
@@ -23,7 +23,7 @@ mat-toolbar{
     margin-bottom: 0rem;
 }
 .list{
-    color: #555;
+    color: rgb(131, 187, 209);
     font-size: 22px;
     margin-left: auto;
     float: right;
@@ -36,5 +36,8 @@ mat-toolbar{
     text-align: right;
     margin-right: 30px;
     text-decoration: none;
-    color: #333;
+    color: rgb(70, 70, 70);
+}
+.logo {
+color: white;
 }
